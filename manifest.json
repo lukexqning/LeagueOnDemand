@@ -1,0 +1,14 @@
+{
+    "name": "League On Demand",
+    "version": "1.0",
+    "description": "Chrome extension for League of Legends",
+    "permissions": ["tabs"],
+    "browser_action": {},
+    "background":{
+        "scripts": ["background.js"]
+    },
+    "chrome_url_overrides": {
+        "newtab": "newTabOverride.html"
+    },
+    "manifest_version": 2
+}
